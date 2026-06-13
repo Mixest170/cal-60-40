@@ -32,7 +32,7 @@ export default function App() {
       <div className="w-full max-w-md">
         <header className="mb-4">
           <h1 className="text-2xl font-bold tracking-tight text-stone-900">
-            คิดเงินคนละ 60:40
+            คำนวณไทยช่วยไทยพลัส 60:40
           </h1>
           <p className="mt-1 text-sm text-stone-500">
             รัฐช่วย 60% · จ่ายเอง 40% · สิทธิรัฐสูงสุด ฿{DAILY_CAP}/วัน
