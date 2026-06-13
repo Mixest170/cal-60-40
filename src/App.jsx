@@ -135,7 +135,7 @@ function RemainingCalc() {
       </div>
 
       <p className="text-center text-xs text-stone-500">
-        เหลือสิทธิ ฿{baht(r)} → ซื้อของได้อีกรวม ฿{baht(spendable)} โดยควักเอง ฿
+        เหลือสิทธิ ฿{baht(r)} → ซื้อของได้อีกรวม ฿{baht(spendable)} โดยจ่ายเอง ฿
         {baht(self)}
       </p>
     </div>
