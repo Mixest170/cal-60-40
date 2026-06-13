@@ -101,7 +101,7 @@ function SingleCalc() {
         </div>
         {overCap && (
           <p className="mt-3 text-xs text-rose-300">
-            ราคาเกิน ฿{baht(SPEND_CAP)} → สิทธิรัฐเต็มเพดาน ส่วนเกินจ่ายสดเต็ม
+            ราคาเกิน ฿{baht(SPEND_CAP)} → สิทธิรัฐเต็มเพดาน ส่วนเกินจ่ายเต็มจำนวน
           </p>
         )}
       </div>
@@ -195,7 +195,7 @@ function SplitCalc() {
         </div>
         {overBudget && (
           <p className="mt-2 rounded-lg bg-rose-50 px-3 py-2 text-xs text-rose-700">
-            บิลเกินสิทธิรวม ฿{baht(excess)} — ส่วนนี้จ่ายสดเต็มจำนวน (คนสุดท้ายรับ)
+            บิลเกินสิทธิรวม ฿{baht(excess)} — ส่วนนี้จ่ายต็มจำนวน (คนสุดท้ายจ่ายส่วนเกินสิทธิ)
           </p>
         )}
       </Card>
