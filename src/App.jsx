@@ -188,14 +188,14 @@ function SplitCalc() {
       <Card>
         <Field label="ราคาบิลรวม" value={bill} onChange={setBill} big />
         <div className="mt-3 flex items-center justify-between text-xs">
-          <span className="text-stone-400">ความจุสิทธิรวมทั้งกลุ่ม</span>
+          <span className="text-stone-400">สิทธิรวมทั้งกลุ่ม</span>
           <span className="tabular-nums font-medium text-stone-600">
             ฿{baht(totalCapacity)}
           </span>
         </div>
         {overBudget && (
           <p className="mt-2 rounded-lg bg-rose-50 px-3 py-2 text-xs text-rose-700">
-            บิลเกินสิทธิรวม ฿{baht(excess)} — ส่วนนี้จ่ายต็มจำนวน (คนสุดท้ายจ่ายส่วนเกินสิทธิ)
+            บิลเกินสิทธิรวม ฿{baht(excess)} — ส่วนนี้จ่ายเต็มจำนวน (คนสุดท้ายจ่ายส่วนเกินสิทธิ)
           </p>
         )}
       </Card>
